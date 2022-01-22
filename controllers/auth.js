@@ -30,6 +30,7 @@ const createUser = async (req, res = response) => {
             user: {
                 name: usuario.name,
                 uid: usuario._id,
+                token
             }
         });
     } catch (error) {

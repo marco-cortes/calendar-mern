@@ -36,5 +36,5 @@ app.use("/api/events", require("./routes/events"));
 
 //Escuchar peticiones
 app.listen(process.env.PORT, () => {
-    console.log("Servidor iniciado en el puerto "+process.env.PORT);
+    console.log("Servidor iniciado en el puerto " + process.env.PORT);
 });
